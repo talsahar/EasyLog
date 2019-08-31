@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		079C8F352319B2D40061D42F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079C8F342319B2D40061D42F /* main.swift */; };
+		079C8F3D2319BA290061D42F /* EasyLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079C8F3C2319BA290061D42F /* EasyLog.swift */; };
+		079C8F402319BFDA0061D42F /* EasyLogConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079C8F3F2319BFDA0061D42F /* EasyLogConfig.swift */; };
+		079C8F422319C2F50061D42F /* LogFileHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079C8F412319C2F50061D42F /* LogFileHandle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		079C8F312319B2D40061D42F /* EasyLog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EasyLog; sourceTree = BUILT_PRODUCTS_DIR; };
 		079C8F342319B2D40061D42F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		079C8F3C2319BA290061D42F /* EasyLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyLog.swift; sourceTree = "<group>"; };
+		079C8F3F2319BFDA0061D42F /* EasyLogConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyLogConfig.swift; sourceTree = "<group>"; };
+		079C8F412319C2F50061D42F /* LogFileHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFileHandle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				079C8F342319B2D40061D42F /* main.swift */,
+				079C8F3C2319BA290061D42F /* EasyLog.swift */,
+				079C8F3F2319BFDA0061D42F /* EasyLogConfig.swift */,
+				079C8F412319C2F50061D42F /* LogFileHandle.swift */,
 			);
 			path = EasyLog;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				079C8F352319B2D40061D42F /* main.swift in Sources */,
+				079C8F402319BFDA0061D42F /* EasyLogConfig.swift in Sources */,
+				079C8F3D2319BA290061D42F /* EasyLog.swift in Sources */,
+				079C8F422319C2F50061D42F /* LogFileHandle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
