@@ -22,7 +22,6 @@ log.error("error")
 ### Log to file
 To log to a file you must set the path to you logs folder.
 For each day, the logger will create and write logs at the same log_YY-MM-dd.txt file where YY-MM-dd represents it's date.
-Configure
 ```swift
 let logFolder = URL(fileURLWithPath: "logs/", isDirectory: true)
 log.config.logFile = EasyLogConfig.LogFile(folderPath: logFolder)
