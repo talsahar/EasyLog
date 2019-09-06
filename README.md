@@ -4,7 +4,7 @@ Simple, pretty and powerful logger for iOS
 ### Setup
 Clone and add .swift files to your project.
 
-Initialize as global variable
+Initialize as a global variable
 ```swift
 let log = EasyLog()
 ```
