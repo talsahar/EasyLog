@@ -27,14 +27,14 @@ let logFolder = URL(fileURLWithPath: "logs/", isDirectory: true)
 log.config.logFile = EasyLogConfig.LogFile(folderPath: logFolder)
 ```
 
-You also can determine the log file's date format
+You also can determine file's date format
 ```swift
 let logFolder = URL(fileURLWithPath: "logs/", isDirectory: true)
 log.config.logFile = EasyLogConfig.LogFile(folderPath: logFolder, fileNameDateFormat: "YY_MM_dd")
 ```
 
 ### Reading log file
-Read logs from specific date:
+Read logs from specific date
 ```swift
 let todayLogs: [String]? = log.logsFromDate(Date())
 ```
