@@ -1,4 +1,4 @@
-### EasyLog
+## EasyLog
 Simple, pretty and powerful logger for iOS
 
 ### Setup
@@ -20,10 +20,8 @@ log.error("error")
 <img src='https://i.imgur.com/Z3c1qQJ.png'/>
 
 ### Log to file
-You must set the path to you logs folder.
-</br>
-For each day, the logger will create and write logs at the same log_YY-MM-dd.txt where YY-MM-dd represents it's date.
-</br>
+To log to a file you must set the path to you logs folder.
+For each day, the logger will create and write logs at the same log_YY-MM-dd.txt file where YY-MM-dd represents it's date.
 Configure
 ```swift
 let logFolder = URL(fileURLWithPath: "logs/", isDirectory: true)
