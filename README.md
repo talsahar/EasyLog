@@ -34,7 +34,7 @@ log.config.logFile = EasyLogConfig.LogFile(folderPath: logFolder, fileNameDateFo
 ```
 
 ### Reading log file
-Read your logs from a specific date:
+Read logs from specific date:
 ```swift
 let todayLogs: [String]? = log.logsFromDate(Date())
 ```
